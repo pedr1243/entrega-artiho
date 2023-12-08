@@ -1,0 +1,83 @@
+header{
+    background-color: rgb(132, 132, 132);
+    padding: 10px;
+    margin: 20px;
+}
+body{
+    background-color: rgb(170, 167, 167);
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+    font-size: 22px;
+}
+.test4{
+    border: 1px solid rgba(196, 196, 196, 0);
+    height: 650px;
+
+}
+
+.container6{
+    border: 2px solid rgb(206, 204, 204);
+    height: 98%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    grid-template-areas: 
+    "a1 a1 a1 a1"
+    "b1 c1 c1 c1"
+    "b1 c1 c1 c1"
+    "d1 d1 d1 d1"
+    ;
+}
+p{
+    line-height: 1.4;
+}
+
+section img{
+    margin-top: 2px;
+    padding: 50px;
+}
+.box-01{
+    border: 2px solid rgb(195, 195, 195);
+}
+.box-01 p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+#box-01{
+    grid-area: a1;
+}
+#box-02{
+    grid-area: b1;
+}
+#box-03{
+    grid-area: c1;
+}
+#box-03 p{
+    margin-top: 50px;
+}
+#box-04{
+    grid-area: d1;
+}
+#box-06{
+    grid-area: f1;
+}
+#box-07{
+    grid-area: d1;
+}
+
+
+
+/* Estilos para dispositivos pequenos (ex: smartphones) */
+@media only screen and (max-width: 468px) {
+    body {
+        font-size: 14px;
+    }
+}
+
